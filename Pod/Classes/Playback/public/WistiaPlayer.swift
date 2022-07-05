@@ -190,7 +190,7 @@ public final class WistiaPlayer: NSObject {
 
      - Returns: An idle `WistiaPlayer` not yet displayed.
      */
-    public init(referrer: String, requireHLS: Bool = true, associatedEmail: String? = nil) {
+    @objc public init(referrer: String, requireHLS: Bool = true, associatedEmail: String? = nil) {
         self.referrer = referrer
         self.requireHLS = requireHLS
         self.associatedEmail = associatedEmail
